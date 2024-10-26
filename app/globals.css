@@ -4,7 +4,8 @@
 
 :root {
   --background: #1E1E1E;
-  --primary-color: #E9A820;
+  --primary-color: #fcfcfc;
+  --neutral-color: rgb(53 53 53)
 }
 
 /* @media (prefers-color-scheme: dark) {

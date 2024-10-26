@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/Navbar/Navbar";
+// import { Providers } from "@/components/Provider/Provider";
 
 
 
@@ -15,8 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-background text-foreground">
-        {children}
+      <body className="py-5 px-8">
+          <Navbar/>
+          {children}
+        {/* <Providers>
+
+        </Providers> */}
       </body>
     </html>
   );
