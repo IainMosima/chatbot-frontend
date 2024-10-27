@@ -7,7 +7,7 @@ const Navbar = () => {
     const { menuToggle, setMenuToggle } = useMenuToggler();
 
     return (
-        <div className="w-full flex justify-between place-items-center">
+        <div className="w-full flex justify-between place-items-center mb-4">
 
             <div className="flex gap-7 place-items-center justify-start md:basis-[50%]">
                 {/* harmbuger menu */}

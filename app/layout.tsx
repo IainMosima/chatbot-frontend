@@ -19,8 +19,8 @@ export default function RootLayout({
     <html lang="en">
       <body className="py-7 px-3 md:py-5 md:px-8 h-screen">
         <Providers>
-          <Navbar/>
-          {children}
+            <Navbar />
+            {children}
         </Providers>
       </body>
     </html>
